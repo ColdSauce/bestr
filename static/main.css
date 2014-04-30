@@ -1,0 +1,33 @@
+#theForm {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0; 
+  bottom: 0;
+  left: 0;
+  width: 500px;
+  height: 300px;
+  text-align: center;
+}
+
+#theFinding {
+  margin-left: -10px;
+  font-size: 8em;
+}
+input{
+   text-align:center;
+}
+#theTextThing{
+    border-color: #000000;
+    border-style: dashed;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+
+html { 
+  font-family:"Times New Roman", Times, serif;
+  background: url(res/skulls.png) repeat;
+}
+#theForm #submitBottom {
+  margin:auto;
+}

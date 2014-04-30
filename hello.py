@@ -10,8 +10,8 @@ app.debug = False
 @app.route('/', methods = ['POST'])
 def index():
 	try:
-		APP_KEY = "I1WJ9lPZKo6bOPLZA4KDgA";
-		APP_SECRET = "27IfEiv2yK8eDVmeiDUN0peSqS2YKpsnirNN0xx32Lo";
+		APP_KEY = "KEY";
+		APP_SECRET = "SECRET";
 
 		twitter = Twython(APP_KEY, APP_SECRET, oauth_version=2)
 		ACCESS_TOKEN = twitter.obtain_access_token()
